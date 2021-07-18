@@ -1,0 +1,39 @@
+SET IDENTITY_INSERT [dbo].[Questions] ON 
+GO
+INSERT [dbo].[Questions] ([QuestionID], [Question], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (1, N'How many stars are in the solar system?', NULL, N'17', N'3206', N'1', N'7,182,639', 2)
+GO
+INSERT [dbo].[Questions] ([QuestionID], [Question], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (2, N'Solve for x in the following numerical sequence: 1,4,9,16,x,36,49', NULL, N'26', N'25', N'24', N'23', 1)
+GO
+INSERT [dbo].[Questions] ([QuestionID], [Question], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (3, N'Who composed: "In the hall of the mountain king"?', NULL, N'Beethoven', N'Edvard Grieg', N'Johann Pachelbel', N'Mozart', 1)
+GO
+INSERT [dbo].[Questions] ([QuestionID], [Question], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (4, N'Which of the following components is effective in relieving pain from headaches and inflamation?', NULL, N'Tetracyclin', N'Acetylsalicylic acid', N'Metformin', N'Formalin', 1)
+GO
+INSERT [dbo].[Questions] ([QuestionID], [Question], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (5, N'Who is the artist of the famous painting: "The scream"?', NULL, N'Edvard Munch', N'Vincent van Gogh', N'Pablo Picasso', N'Claude Monet', 0)
+GO
+INSERT [dbo].[Questions] ([QuestionID], [Question], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (6, N'In what year did the berlin wall come down?', NULL, N'1927', N'1948', N'1954', N'1989', 3)
+GO
+INSERT [dbo].[Questions] ([QuestionID], [Question], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (7, N'Which of the following is considered an amphibian?', NULL, N'Cobra', N'Crocodile', N'Chinese pond turtle', N'Salamander', 3)
+GO
+INSERT [dbo].[Questions] ([QuestionID], [Question], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (8, N'What is the origin "polo" in polo shirts?', NULL, N'Marco Polo designed them', N'Polo was the nickname of the designer', N'Polo, the sport', N'Polo, the company', 2)
+GO
+INSERT [dbo].[Questions] ([QuestionID], [Question], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (9, N'How many bones are in the human body at adulthood?', NULL, N'270', N'206', N'211', N'217', 1)
+GO
+INSERT [dbo].[Questions] ([QuestionID], [Question], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (10, N'How strong is the gravity on mars', NULL, N'3,721 m/s²', N'9,807 m/s²', N'4,87 m/s²', N'1,62 m/s²', 0)
+GO
+INSERT [dbo].[Questions] ([QuestionID], [Question], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (11, N'How many moons does jupiter have?', NULL, N'79', N'17', N'1', N'63', 0)
+GO
+INSERT [dbo].[Questions] ([QuestionID], [Question], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (12, N'Who is the creator of wikipedia?', NULL, N'Larry Sanger', N'Linus torvalds', N'Richard Stallman', N'James Gosling', 0)
+GO
+INSERT [dbo].[Questions] ([QuestionID], [Question], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (13, N'When did john f kennedy die?', NULL, N'1950', N'1957', N'1960', N'1963', 3)
+GO
+INSERT [dbo].[Questions] ([QuestionID], [Question], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (14, N'Who was the first president of the united states?', NULL, N'Alexander Hamilton', N'Benjamin Franklin', N'George Washington', N'Thomas Jefferson', 2)
+GO
+INSERT [dbo].[Questions] ([QuestionID], [Question], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (15, N'How long were vine videos?', NULL, N'7 seconds', N'6 seconds', N'8 seconds', N'12 seconds', 1)
+GO
+INSERT [dbo].[Questions] ([QuestionID], [Question], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (16, N'What was the first novel written by Stephen King?', NULL, N'The Shining', N'It', N'Carrie', N'Sleeping Beauties', 2)
+GO
+INSERT [dbo].[Questions] ([QuestionID], [Question], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (17, N'When was "Harry Potter" first published?', NULL, N'1998', N'1987', N'2000', N'1995', 0)
+GO
+SET IDENTITY_INSERT [dbo].[Questions] OFF
+GO
+
